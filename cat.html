@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        height: 200px;
+        width: 200px;
+        background-color: #203040;
+        font-size: 30px;
+        text-align: center;
+        cursor: pointer;
+        color: whitesmoke;
+        display: inline-block;
+        
+
+    }
+    p{
+        position:absolute;
+        display: none;
+    }
+    div:hover p{
+        display: block;
+        
+    }
+    div:active img{
+        display: block;
+    }
+    div:active p{
+        display: none;
+
+    }
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: none;
+        }
+</style>
+<body>
+    <div>
+        <p>cat</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQK072qZcrCTN3noOGMncQoi30T3ftTJWHDQ&s" alt="">
+    </div>
+    <div>
+        <p>cute dog</p>
+        <img src="https://i.pinimg.com/736x/54/36/95/54369563e20e94dcab5fc7f40cf7e8d6.jpg" alt="">
+    </div>
+    <div>
+        <p>rabit</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTvn1_n61eWCMDd9rcHhMrUmY0Yk_-jyPUQA&s" alt="">
+    </div>
+    <div>
+        <p>dora</p>
+        <img src="https://www.shutterstock.com/image-vector/doraemon-cute-hand-drawn-illustration-260nw-2352837563.jpg">
+    </div>
+</body>
+</html>
